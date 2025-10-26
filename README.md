@@ -22,7 +22,7 @@ It includes individual scripts for testing specific sensors and one unified Sens
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/phone-sensor-dashboard.git
+git clone https://github.com/Tanmetry554/Mobile-Sensor-Streamer.git
 cd phone-sensor-dashboard
 ```
 
@@ -135,13 +135,15 @@ numpy
 
 ```
 phone-sensor-dashboard/
-├── PhoneSensorsStreamer.apk     # Prebuilt Android app
-├── Sensor_Dashboard.py          # Full GUI dashboard (3D + map + data)
-├── Orientation_Fast.py          # Fast orientation cube visualization
-├── GPS.py                       # GPS-only listener
-├── sensor_list.py               # Lists all available phone sensors
-├── rpy_output_text.py           # Terminal RPY printout
-├── requirements.txt             # Python dependencies
+├── PhoneSensorsStreamer.apk
+├── src/
+│ ├── Sensor_Dashboard.py
+│ ├── Orientation_Fast.py
+│ ├── GPS.py
+│ ├── sensor_list.py
+│ ├── rpy_output_text.py
+│
+├── requirements.txt
 ├── .gitignore
 └── README.md
 ```
